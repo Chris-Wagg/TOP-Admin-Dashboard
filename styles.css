@@ -44,6 +44,8 @@ input {
 	background-color: #e2e8f0;
 	border: none;
 	border-radius: 20px;
+	font-size: 18px;
+	padding-left: 10px;
 }
 
 .right-nav {
@@ -190,13 +192,28 @@ input {
 	padding-right: 30px;
 }
 
+.announcement-header {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
 .announcement-cards {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 20px;
 	padding: 30px;
 	background-color: white;
 	border-radius: 15px;
+}
+
+.announce-content {
+	padding-bottom: 20px;
+}
+
+.announce-title {
+	font-weight: 700;
+	padding-bottom: 5px;
 }
 
 .announcement-items {
