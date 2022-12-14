@@ -161,6 +161,7 @@ input {
 .card-title {
 	font-size: 18px;
 	font-weight: 700;
+	padding-bottom: 10px;
 }
 
 .card {
@@ -183,11 +184,16 @@ input {
 	padding: 10px 20px 0px 0px;
 }
 
+.card-content {
+	color: #999999;
+	font-size: 14px;
+}
+
 .right-sidebar {
 	grid-area: right-sidebar;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	/* justify-content: space-between; */
 	background-color: #e2e8f0;
 	padding-right: 30px;
 }
@@ -196,6 +202,7 @@ input {
 	font-size: 18px;
 	font-weight: 700;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .announcement-cards {
@@ -209,6 +216,8 @@ input {
 
 .announce-content {
 	padding-bottom: 20px;
+	color: #999999;
+	font-size: 14px;
 }
 
 .announce-title {
@@ -217,13 +226,40 @@ input {
 }
 
 .announcement-items {
-	/* border-top: 1px solid gray; */
 	border-bottom: 1px solid gray;
 }
 
-.trending {
+.trending-title {
+	font-size: 18px;
+	font-weight: 700;
+	padding: 20px 0px 20px 0px;
+}
+
+.trending-item-container {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 15px;
 }
 
 .trending-item {
-	background-color: white;
+	display: flex;
+	padding: 20px;
+	/* justify-content: space-between; */
+}
+
+.trending-icon > svg {
+	width: 40px;
+	height: 40px;
+	padding-right: 20px;
+}
+
+.trending-handle {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.trending-tag {
+	color: #999999;
+	font-size: 14px;
 }
