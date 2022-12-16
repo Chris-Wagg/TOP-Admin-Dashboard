@@ -20,6 +20,7 @@ body {
 	grid-area: nav;
 	padding: 20px;
 	background-color: white;
+	align-items: center;
 }
 
 .nav-content {
@@ -47,14 +48,19 @@ input {
 
 .right-nav {
 	display: flex;
-	justify-content: space-evenly;
 	gap: 20px;
 	grid-area: right-nav;
+}
+
+.user-name {
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .user-bar {
 	display: grid;
 	grid-template-areas: 'user-info user-info user-buttons';
+	align-items: center;
 	grid-area: user-bar;
 	padding: 20px;
 	background-color: white;
@@ -83,7 +89,6 @@ input {
 .user-buttons {
 	display: flex;
 	grid-area: user-buttons;
-	justify-content: center;
 	gap: 30px;
 }
 
