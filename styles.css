@@ -11,13 +11,13 @@ body {
 		'sidebar nav-content nav-content nav-content'
 		'sidebar main-content main-content right-sidebar';
 	font-family: 'Roboto', sans-serif;
+	background-color: #e2e8f0;
 }
 
 .nav {
 	display: grid;
 	grid-template-areas: 'search-bar search-bar right-nav';
 	grid-area: nav;
-
 	padding: 20px;
 	background-color: white;
 }
@@ -56,8 +56,8 @@ input {
 	display: grid;
 	grid-template-areas: 'user-info user-info user-buttons';
 	grid-area: user-bar;
-
 	padding: 20px;
+	background-color: white;
 }
 
 .user-icon {
@@ -87,15 +87,26 @@ input {
 	gap: 30px;
 }
 
-.user-buttons > button {
+button {
 	color: white;
 	background-color: #1992d4;
+	border: 0;
 	border: 0;
 	border-radius: 20px;
 	font-size: 14px;
 	font-weight: 700;
 	height: 40px;
-	width: 80px;
+	width: auto;
+	padding: 5px 20px 5px 20px;
+	box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.1),
+		6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+		inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+		inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+		inset 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .user-name-and-handle {
@@ -109,6 +120,7 @@ input {
 	align-items: center;
 	justify-content: space-around;
 	grid-area: sidebar;
+	min-width: 165px;
 
 	color: white;
 	background-color: #1992d4;
@@ -124,7 +136,7 @@ input {
 .top-buttons > .button-container > button {
 	color: white;
 	background-color: #1992d4;
-	/* border: none; */
+	border: none;
 }
 
 .button-container {
@@ -141,7 +153,7 @@ input {
 .bottom-buttons > .button-container > button {
 	color: white;
 	background-color: #1992d4;
-	/* border: none; */
+	border: none;
 }
 
 .main-content {
@@ -200,7 +212,6 @@ input {
 	grid-area: right-sidebar;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 	background-color: #e2e8f0;
 	padding-right: 30px;
 }
@@ -256,8 +267,8 @@ input {
 }
 
 .trending-icon > svg {
-	width: 40px;
-	height: 40px;
+	width: 32px;
+	height: 32px;
 	padding-right: 20px;
 }
 
