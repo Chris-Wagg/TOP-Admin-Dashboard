@@ -121,7 +121,6 @@ button:active {
 	justify-content: space-around;
 	grid-area: sidebar;
 	min-width: 165px;
-
 	color: white;
 	background-color: #1992d4;
 	height: 100vh;
@@ -194,6 +193,8 @@ button:active {
 	height: auto;
 	padding: 20px;
 	flex-shrink: 0;
+	box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.1),
+		6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .card-icons {
@@ -230,6 +231,8 @@ button:active {
 	padding: 30px;
 	background-color: white;
 	border-radius: 15px;
+	box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.1),
+		6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .announce-content {
@@ -258,6 +261,8 @@ button:active {
 	display: flex;
 	flex-direction: column;
 	border-radius: 15px;
+	box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.1),
+		6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .trending-item {

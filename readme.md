@@ -1,3 +1,5 @@
-Logo's/ icons found on https://logoipsum.com/ and https://materialdesignicons.com/
+Logo svg found at: https://logoipsum.com/
+
+Icons found at: https://materialdesignicons.com/
 
 Avatars by Dmitriy Bondarchuk, found here: https://iconscout.com/icon-pack/free-avatars-flat-icons
